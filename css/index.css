@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html {
@@ -111,7 +112,15 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
-}
+
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        padding: 20px;
+    }
 
 /* about us section */
 .about {

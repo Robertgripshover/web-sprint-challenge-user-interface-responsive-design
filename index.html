@@ -4,8 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
@@ -15,41 +16,77 @@
 <body>
 	<div>
 		<!-- header -->
-		<header>
+		<header><a href="index.html">
+			<h1>BLOOMTECH BAR AND GRILL</h1>
+			</a>
 			
-				<h1>BLOOMTECH BAR AND GRILL</h1>
 
 				<nav>
-				<button><a href="menu.html">Menu</a></button>
-				<button>Reservations</button>
-				<button>Special Offers</button>
-				<button>Contact</button>
+					<div>
+						<button><a href="menu.html">Menu</a></button>
+						<button><a href="#"></a>Reservations</button>
+						<button><a href="#"></a>Special Offers</button>
+						<button><a href="#"></a>Contact</button>
+					</div>
+					<a href="https://fontawesome.com/search?q=facebook&s=solid%2Cbrands" class="fa fa-facebook"></a>
+					<a href="https://fontawesome.com/search?q=twitter&s=solid%2Cbrands" class="fa fa-twitter"></a>
+					<a href="https://fontawesome.com/search?q=instagram&s=solid%2Cbrands" class="fa fa-instagram"></a>
+					<div>
+
+					</div>
 				</nav>
 			
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
+		<!--This section still is going to need some work, images not working right, 
+		I think that if I were to make a row1, row2, and row3 with like 3 divs or something, 
+	I might get what they are looking for-->	
+
 				<h2>OUR FOOD</h2>
 
 				img/food-avocadotoast.jpg
+				<div class="row">
+					<div class="portfolio-element">
+						<img src="img/food-avocadotoast.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-burger.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-poutine.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-ribs.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-sandwich.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-sausage.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-steak.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-tacos.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
+					<div class="portfolio-element">
+						<img src="img/food-wings.jpg"/>
+						<!--maybe add the p tage for some names?-->	
+					</div>
 
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				</div>
+														
 			</div>
 		</section>
 
@@ -130,10 +167,14 @@
 			Join our mailing list!
 			Sign Up
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+			<div>
+				<button><a href="menu.html">Menu</a></button>
+				<button><a href="#"></a>Reservations</button>
+				<button><a href="#"></a>Special Offers</button>
+				<button><a href="#"></a>Contact</button>
+			</div>
+		</nav>
 			<!-- copyright -->
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
 		</footer>
