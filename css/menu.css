@@ -71,19 +71,19 @@ h1 {
 }
 
 h2 {
-    font-size: 6rem;
-}
-
-h3 {
-    font-size: 5rem;
-}
-
-h4 {
     font-size: 4rem;
 }
 
-p, a {
+h3 {
     font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p, a {
+    font-size: 1.5rem;
 }
 
 /* header section */
@@ -94,6 +94,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
 
 /* spacer */
@@ -118,7 +119,39 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
+   
 }
+
+.Food-Title{
+    display: flex;
+    justify-content:center; 
+}
+
+.menu-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: left;
+    align-content: flex-start;
+    color: rgb(225, 239, 230);
+}
+
+/* .menu-item{
+    
+} */
+
+/* .food-item{
+    text-align: left;
+  }
+
+.price{
+    text-align: right;
+}
+
+.item-description{
+    text-align: left; 
+} */
 
 /* footer section */
 footer {
